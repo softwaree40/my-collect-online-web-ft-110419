@@ -4,7 +4,7 @@ def my_collect(empty_array)
    i = 0 
    while i < empty_array.size
       new_collection << empty_array[i].upcase
-      yield(empty_array[i])
+      
       #binding.pry
    i+=1
   end
